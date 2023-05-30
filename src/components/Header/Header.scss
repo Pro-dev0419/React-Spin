@@ -1,0 +1,243 @@
+.header-area {
+  display: flex;
+  align-items: center;
+  height: 84px;
+
+  @media (max-width: 720px) {
+    height: 59px;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        line-height: 70px;
+
+        img {
+          height: 62px;
+        }
+      }
+
+      .nav-left-item {
+        display: flex;
+        align-items: center;
+
+        li {
+          padding-right: 30px;
+          list-style: none;
+
+          a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 17px;
+            letter-spacing: 0.1px;
+
+            text-decoration: none;
+            display: block;
+            color: #fff;
+            border-bottom: 2px solid transparent;
+          }
+
+          &:hover {
+            a {
+              border-bottom: 2px solid #fff;
+            }
+          }
+        }
+      }
+    }
+
+
+    @media (max-width: 992px) {
+      .nav-left {
+        .nav-left-item {
+          display: none;
+        }
+
+        .logo {
+          img {
+            height: 34px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+
+
+    .nav-item {
+      display: none;
+      margin: 0 19px 0 0;
+    }
+
+    .btn-wrapper {
+      display: flex;
+    }
+
+    .custom-btn {
+      background: #2081e2;
+      border-radius: 6px;
+      border: 0;
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 15px;
+      text-transform: uppercase;
+      padding: 17px 20px;
+      color: #fff;
+    }
+
+    @media (max-width: 992px) {
+      li {
+        display: none;
+      }
+
+      .nav-item {
+        display: block;
+      }
+
+      .btn-wrapper {
+        display: none;
+      }
+
+      .custom-btn {
+        padding: 11px 13px;
+      }
+    }
+  }
+}
+
+.header-area {
+  @media (max-width: 992px) {
+    .mobileView {
+      background: #090d2a;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100vh;
+      left: 100vw;
+      padding: 30px 20px 20px;
+      position: fixed;
+      top: 0;
+      transition: 0.5s;
+      width: 100vw;
+      z-index: 101;
+
+      .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+          img {
+            height: 41px;
+          }
+        }
+
+        .button_wrapper {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          padding-right: 20px;
+
+          .btn_img {
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+
+      .mobileView_divider {
+        background-color: #ffffff1f;
+        height: 1px;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          padding: 20px 30px;
+          margin: 10px 0;
+          border-radius: 6px;
+          background: #25283A;
+          opacity: 0.6;
+
+          a {
+            font-family: "Stag Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 17px;
+            letter-spacing: 0.1px;
+            text-decoration: none;
+            display: block;
+            color: #fff;
+            border-bottom: 2px solid transparent;
+          }
+        }
+
+        li:hover {
+          background: #fff;
+          opacity: 0.6;
+
+          a {
+            color: #090d2a !important;
+          }
+        }
+      }
+
+      .mobile-buttons {
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.left {
+  @media (max-width: 1200px) {
+    left: 0px !important;
+  }
+}
+
+.mobileView {
+  display: none;
+}
+
+.active {
+  a {
+    color: #2081E2 !important;
+  }
+
+  &:hover {
+    a {
+      border-bottom: 2px solid #2081E2 !important;
+    }
+  }
+}
+
+.active-mobile {
+  a {
+    color: #2081E2 !important;
+  }
+}

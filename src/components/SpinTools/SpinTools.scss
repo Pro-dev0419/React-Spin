@@ -1,0 +1,91 @@
+.spin-tool-wrapper {
+ margin: 20px 0 0 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+ .spin-tool-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+
+
+  a {
+   box-shadow: 0 0 #0003, 0 0 #00000024, 0 0 #0000001f;
+   padding: 3px 16px 5px 16px;
+   background: #25283a;
+   color: #fff;
+   border: 0;
+   border-radius: 5px;
+   font-weight: 500;
+   text-decoration: none;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+
+   span {
+    color: #fff;
+    font-weight: 700;
+
+   }
+
+   .spin-svg {
+    margin-right: 5px;
+   }
+
+   .spin-txt {
+    margin-top: 3px;
+   }
+  }
+
+ }
+
+ .spin-tool-fairness {
+  display: flex;
+  align-items: center;
+ }
+
+ .spin-fairness {
+  .spin-fairness-content {
+   margin-right: 20px;
+   display: flex;
+   align-items: center;
+
+   svg {
+    color: green;
+    margin-right: 4px;
+   }
+
+   span {
+    color: #8e8e99;
+    text-transform: uppercase;
+
+    &:hover {
+     text-decoration: underline;
+     cursor: pointer;
+    }
+   }
+  }
+ }
+
+ .spin-fairness-volume {
+  .spin-fairness-volume-btn {
+   padding: 10px;
+   border: 0;
+   background: transparent;
+
+   &:hover {
+    background: #65656541;
+    border-radius: 2px;
+   }
+
+   svg {
+    color: #fff;
+   }
+  }
+ }
+}

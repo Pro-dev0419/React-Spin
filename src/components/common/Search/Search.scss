@@ -1,0 +1,86 @@
+.has-search {
+  width: 100%;
+  position: relative;
+
+  .form-control {
+    font-family: "Stag Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+
+    // opacity: 0.6;
+    padding-left: 1rem;
+    max-width: 100%;
+    height: 47px;
+    background-color: #25283a;
+    color: #fff;
+    border-color: #25283a;
+  }
+
+  .form-control:focus {
+    border-color: #2081e2;
+    outline: 0;
+    box-shadow: 0 0 0 1px #2081e2;
+  }
+
+  .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    bottom: 12px;
+    right: 12px;
+    // opacity: 0.6;
+  }
+}
+
+
+.has-search-dynamic {
+  background-color: #25283a;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  place-content: center;
+
+  .search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    height: 100%;
+    cursor: pointer;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .display-hidden {
+    display: none;
+  }
+
+  .display-visible {
+    display: inline;
+  }
+
+  .form-control-dynamic {
+    font-weight: 600;
+    font-size: 12 px;
+    color: #7f7f7f;
+    padding: 5px 0;
+    border: 0 !important;
+    background-color: transparent;
+    outline: 0 !important;
+  }
+
+  .form-control-dynamic :focus {
+    border-color: transparent;
+    outline: 0 !important;
+  }
+
+  .form-control-dynamic :focus-visible {
+    outline: 0 !important;
+  }
+}

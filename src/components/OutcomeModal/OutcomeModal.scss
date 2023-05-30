@@ -1,0 +1,180 @@
+.outcome-modal-main {
+    max-width: 90%;
+
+    .modal-content {
+        background: rgba(13, 16, 36, 0.7);
+        border-radius: 0;
+
+        .modal-body {
+            padding: 33px 40px;
+
+            h2 {
+                font-family: 'Stag Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 38px;
+                letter-spacing: 0.25px;
+                margin-bottom: 23px;
+            }
+
+            .outcome-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .outcome-img {
+                    padding: 18px 50px;
+                    background: #25283A;
+                    border-radius: 8px;
+                    margin-bottom: 34px;
+
+                    img {
+                        max-height: 193px;
+                        max-width: 195px;
+                    }
+                }
+
+                .outcome-share {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    padding: 9px 14px;
+                    background: #1D9BF0;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+
+            .warning-wrapper {
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .modal-footer {
+            border-top: 0;
+            padding: 0 0 53px 40px;
+            justify-content: flex-start;
+            gap: 30px;
+
+            .share-btn {
+                padding: 18px 34px;
+                background: #2081E2;
+                border-radius: 4px;
+
+                font-family: 'Stag Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 19px;
+                letter-spacing: 0.15px;
+            }
+
+            .continue-btn {
+                padding: 18px 34px;
+                background: #fff;
+                border-radius: 4px;
+                color: #0D1024;
+                font-family: 'Stag Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 19px;
+                letter-spacing: 0.15px;
+            }
+        }
+    }
+
+}
+
+.share-show {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+    // div {
+
+    //     display: flex;
+    //     align-items: center;
+    //     width: 73px !important;
+    //     height: 20px !important;
+    //     border-radius: 25px;
+    //     background: #1D9BF0 !important;
+    //     overflow: hidden;
+
+    // }
+
+
+    // .sh-share {
+    //     display: flex !important;
+    //     align-items: center !important;
+    //     gap: 5px !important;
+    //     padding: 9px 14px !important;
+    //     background: #1D9BF0 !important;
+    //     border-radius: 4px !important;
+    //     cursor: pointer !important;
+    // }
+}
+
+@media (max-width: 720px) {
+    .outcome-modal-main {
+        max-width: 100%;
+        // width: 100vw !important;
+        // height: 100vh !important;
+        margin: 0 !important;
+
+        .modal-content {
+            padding: 20px;
+
+            .modal-body {
+                padding: 0;
+
+                h2 {
+                    margin: 20px 0 30px 0;
+                    font-size: 28px;
+                }
+
+                .outcome-content {
+                    justify-content: center;
+
+                    .outcome-share {
+                        display: none;
+                    }
+                }
+
+                .warning-wrapper {
+                    justify-content: center;
+                    margin-bottom: 34px;
+                }
+            }
+
+            .modal-footer {
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    }
+
+    //  .share-show {
+    //   display: flex;
+
+
+    //   .sh-share {
+    //    display: flex;
+    //    align-items: center;
+    //    gap: 5px;
+    //    padding: 9px 14px;
+    //    background: #1D9BF0;
+    //    border-radius: 4px;
+    //    cursor: pointer;
+    //   }
+    //  }
+
+}

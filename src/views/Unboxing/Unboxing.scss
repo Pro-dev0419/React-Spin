@@ -1,0 +1,47 @@
+.filter-boxes {
+  margin-top: 102px;
+  margin-bottom: 70px;
+
+  .filter-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 44px;
+      line-height: 46px;
+      color: #ffffff;
+    }
+
+    .filter-wrapper-inner {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+
+  .filter-card-wrapper {
+    margin-top: 70px;
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 62px;
+    margin-bottom: 40px;
+
+    .filter-action {
+      flex-direction: column;
+
+      h1 {
+        font-size: 28px;
+        margin-bottom: 29px;
+      }
+
+      .filter-wrapper-inner {
+        flex-direction: column;
+      }
+    }
+  }
+}

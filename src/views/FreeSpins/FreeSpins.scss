@@ -1,0 +1,92 @@
+// Wheel box
+
+.open-box-wheel {
+  background-size: 100% 100%;
+  align-items: center;
+  background: url("https://i.ibb.co/K6VJ076/image-23.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  position: relative;
+
+  .custom-container {
+    align-items: center;
+    display: flex;
+    position: relative;
+    height: 338px;
+    overflow: hidden;
+    padding-top: 43px;
+    width: 100%;
+  }
+
+  @media (max-width: 1460px) {
+    .custom-container {
+      height: 330px;
+      padding-top: 5rem;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .custom-container {
+      height: 250px;
+      padding-top: 3rem;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .custom-container {
+      height: 250px;
+      padding-top: 2.25rem;
+    }
+  }
+
+
+}
+
+// RecentlyUnbox
+
+.recently-unbox-main {
+  margin-bottom: 110px;
+
+  h1 {
+    font-family: "Stag Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    margin-bottom: 68px;
+  }
+
+  @media (max-width: 720px) {
+    margin-bottom: 94px;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 35px;
+    }
+  }
+}
+
+// ItemInSpinBox
+
+.item-in-main {
+  margin-bottom: 140px;
+
+  h1 {
+    font-family: "Stag Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 46px;
+    margin-bottom: 68px;
+  }
+
+  @media (max-width: 720px) {
+    margin-bottom: 103px;
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+  }
+}

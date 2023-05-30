@@ -1,0 +1,172 @@
+//
+// Color system
+//
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000000;
+
+$grays: ();
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900,
+  ),
+  $grays
+);
+
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+
+$colors: ();
+$colors: map-merge(
+  (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800,
+  ),
+  $colors
+);
+
+$primary: #0d1024;
+$secondary: #2081e2;
+$success: #3b3866;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $black;
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+  ),
+  $theme-colors
+);
+
+//
+// Body
+//
+
+// $body-bg: $black;
+$body-color: $black;
+
+// Typography
+$font-family-base: "Poppins", sans-serif;
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1321px,
+);
+
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25,
+    ),
+    2: (
+      $spacer * 0.5,
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5,
+    ),
+    5: (
+      $spacer * 2.5,
+    ),
+    6: (
+      $spacer * 3,
+    ),
+    7: (
+      $spacer * 3.5,
+    ),
+    8: (
+      $spacer * 4,
+    ),
+    9: (
+      $spacer * 4.375,
+    ),
+    10: (
+      $spacer * 4.75,
+    ),
+    11: (
+      $spacer * 5,
+    ),
+    12: (
+      $spacer * 5.5,
+    ),
+    13: (
+      $spacer * 6,
+    ),
+    14: (
+      $spacer * 6.25,
+    ),
+    15: (
+      $spacer * 7.25,
+    ),
+    16: (
+      $spacer * 8.25,
+    ),
+  ),
+  $spacers
+);
+
+$btn-focus-width: 0;
+
+// responsive layouts
+$layout-dektop : "only screen and (min-width: 1920px)";
+$layout-desktop-xs: "only screen and (min-width: 1600px) and (max-width: 1919px)";
+$layout-laptop : "only screen and (min-width: 1200px) and (max-width: 1599px)";
+$layout-notebook: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$layout-tablet : "only screen and (min-width: 768px) and (max-width: 991px)";
+$layout-mobile-lg : "only screen and (max-width: 767px)";
+$layout-mobile-sm : "only screen and (max-width: 575px)";
+$layout-mobile-xs : "only screen and (max-width: 480px)";

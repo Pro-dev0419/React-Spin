@@ -1,0 +1,83 @@
+.speed-option {
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  h1 {
+    font-family: "Stag Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+
+  .custom-radio-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 720px) {
+    margin-top: 42px;
+  }
+}
+
+form {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  cursor: pointer;
+  font-family: "Stag Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+  // width: 100%;
+
+  input {
+    position: absolute;
+    left: -9999px;
+
+    &:checked+span {
+      &:before {
+        box-shadow: inset 0 0 0 0.4375em #fff;
+      }
+    }
+  }
+
+  span {
+    background: #2081e2;
+    display: flex;
+    align-items: center;
+    padding: 12px 22px 12px 10px;
+    border-radius: 4px;
+    transition: 0.25s ease;
+
+    &:before {
+      display: flex;
+      flex-shrink: 0;
+      content: "";
+      background-color: #2081e2;
+      width: 1.5em;
+      height: 1.5em;
+      border-radius: 50%;
+      margin-right: 0.375em;
+      transition: 0.25s ease;
+      box-shadow: inset 0 0 0 0.125em #fff;
+    }
+  }
+
+
+}

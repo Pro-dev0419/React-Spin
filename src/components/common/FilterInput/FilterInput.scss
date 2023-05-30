@@ -1,0 +1,38 @@
+.custom-filter-input {
+ .custom-filter-input-icon-search {
+  span {
+   margin: 0 0 0 5px;
+   font-weight: 600;
+   font-size: 10px;
+   line-height: 10px;
+   letter-spacing: 0.0536708px;
+  }
+ }
+
+ .input-wrapper {
+  display: flex;
+  align-items: center;
+
+  input {
+   background: #25283A;
+   width: 176.08px;
+   height: 36px;
+   border: 0;
+   outline: 0;
+   color: #fff;
+   padding: 0 10px;
+  }
+
+  button {
+   color: #fff;
+   border: 0;
+   margin: 0 0 0 8px;
+   background: #2081E2;
+   padding: 11px 13px;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 13px;
+   letter-spacing: 0.0536708px;
+  }
+ }
+}

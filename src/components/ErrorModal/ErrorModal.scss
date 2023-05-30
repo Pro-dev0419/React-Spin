@@ -1,0 +1,46 @@
+.warning-modal {
+
+ .modal-content {
+  backdrop-filter: blur(50px);
+  background-color: hsla(0, 0%, 100%, .051);
+
+  .modal-header {
+   padding: 10px 20px;
+   border-bottom: 0;
+
+   .close {
+    padding: 10px;
+    margin: -9px -17px -25px auto;
+    color: #fff;
+   }
+  }
+
+  .modal-body {
+   .modal-body-content {
+    .icon-box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+
+    .modal-title {
+     margin: 10px 0;
+     text-align: center;
+     font-size: 25px;
+    }
+   }
+
+   .modal-des {
+    text-align: center;
+
+    p {
+     opacity: 0.6;
+    }
+   }
+  }
+
+  .modal-footer {
+   border-top: 0;
+  }
+ }
+}

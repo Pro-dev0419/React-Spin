@@ -1,0 +1,40 @@
+.custom-unbox-card {
+  margin: 0 15px;
+  background: transparent !important;
+  border-radius: 4px;
+
+  .custom-unbox-img {
+    background: #25283a;
+    border-radius: 8px;
+    height: 160px;
+    .unbox-image-wrapper {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 12px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .unbox-custom-card-body {
+    position: absolute;
+    bottom: 13px;
+    right: 0;
+    span {
+      background: #ffffff;
+      border-radius: 3.33333px;
+      padding: 8px 20px;
+      margin: 6px 7px;
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13.3333px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 0.0833333px;
+      color: #0d1024;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.custom-select-input {
+ display: flex;
+ align-items: center;
+ padding: 8px 35px 8px 15px;
+ background: #25283a;
+ border: none;
+ border-radius: 2px;
+ color: #fff;
+ background-image: url(../../../assets/icon/select-double-arrow-dark.svg);
+ background-repeat: no-repeat;
+ background-position: right 0.75rem center;
+ background-size: 16px 12px;
+
+ &:focus {
+  border-color: transparent !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+ }
+}

@@ -1,0 +1,47 @@
+.card {
+ margin: 50px 0;
+ padding: 0 0 20px 0;
+ border-radius: 30px;
+ backdrop-filter: blur(50px);
+ background-color: hsla(0, 0%, 100%, .051);
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.card .primary-heading {
+ text-align: center;
+ padding-top: 50px;
+ font-size: 50px;
+}
+
+.terms-container {
+ margin-left: 50px;
+ margin-right: 50px;
+ padding-top: 25px;
+}
+
+.paragraph {
+ color: rgb(179, 179, 179);
+ font-size: 18px;
+ line-height: 1.3em;
+ font-weight: 300;
+ text-align: justify;
+}
+
+.terms-link {
+ display: inline;
+ color: #866fe0 !important;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.bold {
+ // color: white;
+ font-weight: 500;
+}
+
+.heading {
+ font-weight: 500;
+ font-size: 23px;
+ margin: 0 0 10px 0;
+}

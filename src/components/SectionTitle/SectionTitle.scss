@@ -1,0 +1,14 @@
+.section-title {
+  margin: 102px 0 50px 0;
+  font-family: "Stag Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 46px;
+  text-transform: uppercase;
+
+  @media (max-width: 720px) {
+    font-size: 28px;
+    margin: 82px 0 32px 0;
+  }
+}

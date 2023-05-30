@@ -1,0 +1,21 @@
+.custom-box-info-card {
+  background: #25283a;
+  border-radius: 8px;
+  height: 235px;
+
+  .image-wrapper {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 179px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    display: none;
+  }
+}

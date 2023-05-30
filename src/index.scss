@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+
+//
+// Fonts
+//
+
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap");
+// @import url("https://fonts.cdnfonts.com/css/stack-ssi");
+
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansBold"),
+    url("./assets/fonts/StagSansBold.otf") format("opentype");
+}
+// 700
+
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansSemibold"),
+    url("./assets/fonts/StagSansSemibold.otf") format("opentype");
+}
+// 600
+
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansMedium"),
+    url("./assets/fonts/StagSansMedium.otf") format("opentype");
+}
+// 500
+
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansLight"),
+    url("./assets/fonts/StagSansLight.otf") format("opentype");
+}
+// 300
+
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansThin"),
+    url("./assets/fonts/StagSansThin.otf") format("opentype");
+}
+
+// 100
+
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansBlack"),
+    url("./assets/fonts/StagSansBlack.otf") format("opentype");
+}
+@font-face {
+  font-family: "Stag Sans"; /*Can be any text*/
+  src: local("StagSansBook"),
+    url("./assets/fonts/StagSansBook.otf") format("opentype");
+}
+
+// 100	Thin (Hairline)
+// 200	Extra Light (Ultra Light)
+// 300	Light
+// 400	Normal (Regular)
+// 500	Medium
+// 600	Semi Bold (Demi Bold)
+// 700	Bold
+// 800	Extra Bold (Ultra Bold)
+// 900	Black (Heavy)
+
+//
+//   Bootstrap & Variables
+//
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/bootstrap.scss";
+// @import "./theme/variables.scss";
+
+body {
+  background: #0d1024 !important;
+  color: #ffffff !important;
+}
+a {
+  color: #ffffff !important;
+}
+
+// .btn-secondary {
+//   font-family: "Stag Sans" !important;
+//   font-style: normal !important;
+//   font-weight: 500 !important;
+//   font-size: 14px !important;
+//   line-height: 15px !important;
+//   text-transform: uppercase;
+//   color: #fff !important;
+//   padding: 17px 20px !important;
+//   border-radius: 6px;
+//   letter-spacing: 1;
+//   background: #2081e2;
+//   border: 0;
+// }

@@ -1,0 +1,45 @@
+.mechanice-custom-card {
+  margin: 10px 0 20px 0;
+  background: transparent !important;
+
+  .mechanice-custom-img {
+    background: #25283a;
+    border-radius: 8px;
+    max-height: 100%;
+
+    .mechanice-image-wrapper {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .mechanice-custom-card-body {
+    margin: 26px 0 14px 0;
+    padding: 0;
+
+    h2 {
+      font-family: "Stag Sans";
+      font-weight: 600;
+      font-size: 21.2059px;
+      line-height: 22px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.5px;
+      opacity: 0.6;
+      text-align: justify;
+    }
+  }
+}

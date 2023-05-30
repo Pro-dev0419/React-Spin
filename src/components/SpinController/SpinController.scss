@@ -1,0 +1,178 @@
+.spin-controller {
+  margin-top: 50px;
+
+  .spin-text {
+    h1 {
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 38px;
+      letter-spacing: 0.25px;
+      margin-bottom: 23px;
+    }
+
+    .wallet {
+      display: block;
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 17px;
+      letter-spacing: 0.5px;
+
+      span {
+        font-weight: 600;
+      }
+
+      margin-bottom: 15px;
+    }
+
+    .free-spin {
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 17px;
+      letter-spacing: 0.5px;
+    }
+  }
+
+  .spin-btn {
+    margin-top: 37px;
+
+    h1 {
+      font-family: "Stag Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 38px;
+      letter-spacing: 0.25px;
+    }
+
+    .spin-counter {
+      margin-top: 30px;
+
+      h2 {
+        display: flex;
+
+        .number-counter {
+          flex-wrap: wrap;
+
+          align-items: center;
+          background: #2081e2;
+          border-radius: 15px;
+          display: flex;
+          min-height: 50px;
+
+          div {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            flex-wrap: wrap;
+            cursor: pointer;
+            height: 100%;
+            line-height: 1;
+            padding: 0 10px;
+            margin: 0 5px;
+          }
+
+          input {
+            background: #25283a;
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 20px;
+            height: 65%;
+            // margin: 0 10px;
+            outline: none;
+            padding: 0px 0 0 14px !important;
+            text-align: center;
+            width: 63px;
+          }
+        }
+      }
+    }
+
+    .spin-btn-section {
+      margin-top: 30px;
+      display: flex;
+
+      gap: 20px;
+      align-items: center;
+
+      .btn-shop {
+        background: #2081e2;
+        color: #ffffff;
+      }
+
+      .btn-demo {
+        background: #ffffff;
+        color: #0d1024;
+      }
+
+      .btn {
+        align-items: center;
+        border-radius: 4px !important;
+        display: flex;
+        font-size: 16px;
+        gap: 5px;
+        // height: 50px;
+        justify-content: center;
+        // min-width: 250px;
+        padding: 18px 56px;
+
+        img {
+          height: 20px;
+          width: 20px;
+        }
+
+        span {
+          overflow: hidden;
+          pointer-events: none;
+          border-radius: inherit;
+          font-family: "Stag Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 19px;
+          letter-spacing: 0.15px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 720px) {
+    margin-top: 0;
+
+    .spin-text {
+      text-align: center;
+    }
+
+    .spin-btn {
+      text-align: center;
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .spin-counter {
+        h2 {
+          justify-content: center;
+
+          .number-counter {
+
+            input {
+              padding: 0 !important;
+            }
+          }
+        }
+      }
+
+      .spin-btn-section {
+        flex-direction: column;
+      }
+    }
+  }
+}
